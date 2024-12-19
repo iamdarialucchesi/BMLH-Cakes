@@ -1,0 +1,163 @@
+@import url('https://fonts.cdnfonts.com/css/rancho');
+
+$primary : #8B109B;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+.font-family-rancho{
+  font-family: 'Rancho', sans-serif;
+}
+.fs-10{
+  font-size: 10px;
+}
+.fs-11{
+  font-size: 11px;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+.fs-16{
+  font-size: 16px;
+}
+
+.fs-70{
+  font-size: 75px;
+}
+.fw-400{
+  font-weight: 400;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+.btn-site{
+  padding: 12px 30px !important;
+}
+.btn-primary-light{
+  background-color: #8B109B24;
+  color: #8B109B;
+  border: 1px solid #8B109B54;
+}
+
+.btn-primary-light:hover{
+  background-color: #8B109B;
+  color: #ffffff;
+  border: 1px solid $primary;
+}
+.text-primary-light{
+  color: #CC2BEC;
+}
+.p-site{
+  font-size: 14px;
+  color: #605A5A;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.ls{
+  letter-spacing: 0.21em;
+}
+.section-padding{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-margin{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.bg-light-gray{
+  background-color: #F7F9FA;
+}
+.vh-80{
+  height: 75vh;
+}
+.hero-img{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.great-old-family{
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.mt-100{
+  margin-top: 100px;
+}
+.pt-70{
+  padding-top: 70px;
+}
+.newsletter-section {
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.outline-none:focus{
+  outline: none;
+
+}
+.services-section{
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .service-icon{
+    background-color: #8B109B20;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    color: $primary;
+    border: 1px solid $primary;
+  }
+  .service-icon:hover{
+    background-color: $primary !important;
+    color: #ffffff;
+
+  }
+
+}
+
+.img_hero1{
+  width: 400px !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.img_hero2{
+  width: 400px !important;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.latest-items-nav{
+    li{
+      a.nav-link {
+        min-width: 150px !important;
+        background-color: #CCC7C740 !important;
+        color: #8A8484 !important;
+        margin: 0 10px !important;
+        border: 1px solid #8A8484 !important;
+        border-radius: 20px !important;
+        font-size: 14px !important;
+      }
+      a.nav-link:hover {
+        background-color: #8B109B20 !important; ;
+        color: $primary !important;
+        border: 1px solid $primary !important;
+
+      }
+    }
+}
